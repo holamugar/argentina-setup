@@ -1,4 +1,4 @@
-# Mugar_ArgentinaSetup for Magento2
+# Mugar Argentina Setup for Magento2
 
 Metapackage to install a set of modules that will improve the configuration of your store for websites that are running in Argentina.
 
@@ -8,16 +8,16 @@ Current included modules are:
 
 ## Installation
 
-Use [composer](https://getcomposer.org/) to install Mugar_ArgentinaSetup.
+Use [composer](https://getcomposer.org/) to install Mugar Argentina Setup metapackage.
 
 ```
-composer require mugar/module-argentina-setup
+composer require mugar/argentina-setup
 ```
 
-Then you'll need to activate the module.
+Then you'll need to activate the included modules.
 
 ```
-bin/magento module:enable Mugar_ArgentinaSetup
+bin/magento module:enable Mugar_ArgentinaRegions
 bin/magento setup:upgrade
 bin/magento cache:clean
 ```
@@ -25,10 +25,16 @@ bin/magento cache:clean
 ## Uninstall
 
 ```
-bin/magento module:uninstall Mugar_ArgentinaSetup
+bin/magento module:uninstall Mugar_ArgentinaRegions
 ```
 
-If you used Composer for installation Magento will remove the files and database information. 
+If you used Composer for installation Magento will remove the files and database information.
+
+Finally, remove files:
+
+```
+composer remove mugar/argentina-setup
+``` 
 
 ## Support
 
