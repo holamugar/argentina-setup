@@ -4,6 +4,7 @@ Metapackage to install a set of modules that will improve the configuration of y
 
 Current included modules are:
 
+* [Mugar_Language-es_AR](https://github.com/holamugar/language-es_ar)
 * [Mugar_ArgentinaRegions](https://github.com/holamugar/module-argentina-regions)
 
 ## Installation
