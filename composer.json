@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "type": "metapackage",
   "require": {
-    "php": "~7.2.0|~7.3.0|~7.4.0",
+    "php": "~7.2.0||~7.3.0||~7.4.0",
     "mugar/language-es_ar": "~1.0",
     "mugar/module-argentina-regions": "~2.0"
   },
